@@ -1,0 +1,50 @@
+/gamemode survival
+/effect give @s minecraft:hunger infinite
+/gamemode creative
+/gamemode survival
+/effect clear
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/time set day
+/gamerule doDaylightCycle false
+/gamemode survival
+/gamemode creative
+/locate structure #c:hidden_from_displayers
+/locate biome
+/locate structure #c:hidden_from_locator_selection
+/gamemode survival
+/gamemode creative
+/difficulty peaceful
+/gamemode survival
+/gamemode creative
+/difficulty easy
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamerule naturalRegeneration false
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/difficulty peaceful
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/tick sprint
+/tick sprint 60s
+/tick sprint 1d
+/time set day

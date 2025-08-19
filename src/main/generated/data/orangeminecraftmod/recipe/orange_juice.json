@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "orangemod:orange",
+    "orangemod:orange"
+  ],
+  "result": {
+    "count": 1,
+    "id": "orangemod:orange_juice"
+  }
+}

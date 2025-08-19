@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "orangemod:orange"
+  ],
+  "result": {
+    "count": 3,
+    "id": "orangemod:orange_seeds"
+  }
+}

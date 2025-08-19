@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "orangemod:orange",
+    "#minecraft:leaves"
+  ],
+  "result": {
+    "count": 1,
+    "id": "orangemod:leaves_with_oranges"
+  }
+}

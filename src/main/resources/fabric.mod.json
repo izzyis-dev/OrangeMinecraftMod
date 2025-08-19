@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "orangeminecraftmod",
+  "version": "1.0",
+  "name": "Orange Minecraft Mod",
+  "description": "I add ORANGES to the game!",
+  "authors": [
+    "Israel Wilkins (IzzyIs)"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/orangemod/icon/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.IzzyIs.orangeminecraftmod.client.OrangeminecraftmodDataGenerator"
+    ],
+    "client": [
+      "org.IzzyIs.orangeminecraftmod.client.OrangeminecraftmodClient"
+    ],
+    "main": [
+      "org.IzzyIs.orangeminecraftmod.Orangeminecraftmod"
+    ]
+  },
+  "mixins": [
+    "orangeminecraftmod.mixins.json",
+    {
+      "config": "orangeminecraftmod.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
